@@ -117,7 +117,7 @@ GEM
     crass (1.0.6)
     csv (3.3.0)
     date (3.4.0)
-    debug (1.9.2)
+    debug (1.10.0)
       irb (~> 1.10)
       reline (>= 0.3.8)
     devise (4.9.4)
@@ -159,6 +159,7 @@ GEM
       dry-inflector (~> 1.0)
       dry-logic (~> 1.4)
       zeitwerk (~> 2.6)
+    error_highlight (0.7.0)
     erubi (1.13.0)
     faraday (2.12.1)
       faraday-net_http (>= 2.0, < 3.5)
@@ -168,7 +169,7 @@ GEM
       multipart-post (~> 2)
     faraday-net_http (3.4.0)
       net-http (>= 0.5.0)
-    ffi (1.17.0-x64-mingw-ucrt)
+    ffi (1.17.0-x86_64-linux-gnu)
     formtastic (5.0.0)
       actionpack (>= 6.0.0)
     formtastic_i18n (0.7.0)
@@ -192,8 +193,8 @@ GEM
       has_scope (>= 0.6)
       railties (>= 6.0)
       responders (>= 2)
-    io-console (0.7.2)
-    irb (1.14.1)
+    io-console (0.8.0)
+    irb (1.14.3)
       rdoc (>= 4.0.0)
       reline (>= 0.4.2)
     jbuilder (2.13.0)
@@ -245,15 +246,16 @@ GEM
     net-smtp (0.5.0)
       net-protocol
     nio4r (2.7.4)
-    nokogiri (1.16.7-x64-mingw-ucrt)
+    nokogiri (1.16.7-x86_64-linux)
       racc (~> 1.4)
     orm_adapter (0.5.0)
     parallel (1.26.3)
     parser (3.3.6.0)
       ast (~> 2.4.1)
       racc
-    pg (1.5.9-x64-mingw-ucrt)
-    psych (5.2.0)
+    pg (1.5.9)
+    psych (5.2.2)
+      date
       stringio
     public_suffix (6.0.1)
     puma (6.5.0)
@@ -303,10 +305,10 @@ GEM
       activerecord (>= 6.1.5)
       activesupport (>= 6.1.5)
       i18n
-    rdoc (6.8.1)
+    rdoc (6.10.0)
       psych (>= 4.0.0)
     regexp_parser (2.9.2)
-    reline (0.5.11)
+    reline (0.6.0)
       io-console (~> 0.5)
     request_store (1.7.0)
       rack (>= 1.4)
@@ -400,7 +402,7 @@ GEM
     zeitwerk (2.7.1)
 
 PLATFORMS
-  x64-mingw-ucrt
+  x86_64-linux
 
 DEPENDENCIES
   activeadmin
